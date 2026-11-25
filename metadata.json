@@ -1,0 +1,6 @@
+{
+  "name": "Elymento Insights",
+  "description": "The Intelligence Layer for Your Distribution Business. Connect your ERP, field teams, workflows and distributor network into clear priorities and measurable execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

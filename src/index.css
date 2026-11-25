@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Lora", Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-navy-950: #091B46;
+  --color-navy-900: #12346A;
+  --color-navy-800: #091B46;
+  --color-sky-brand: #2865B0;
+  --color-ice-50: #DCE7FA;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #091B46;
+    background-color: #ffffff;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+.hero-grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(9, 27, 70, 0.065) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(9, 27, 70, 0.065) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
